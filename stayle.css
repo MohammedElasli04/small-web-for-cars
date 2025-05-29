@@ -1,0 +1,36 @@
+footer {
+    background-color: rgb(223, 222, 222);
+}
+#contactButton {
+    max-width: 25em;
+}
+#con {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#btnsubmit {
+    appearance: none;
+    border: none;
+    background-color: rgb(160, 3, 3);
+    padding: 0.25rem 0.5rem;
+    color: white;
+    border-radius: 5px;
+    transition: all 250ms ease;
+}
+nav img {
+   animation: infinite 2s rot ;
+}
+@keyframes rot {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#shadow {
+    transition: 0.75s;
+}
+#shadow:hover {
+box-shadow: black 1px 1px 10px;
+}
