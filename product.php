@@ -8,47 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative top-0 start-0 w-100">
-        <div class="container">
-             <a class="navbar-brand d-lg-none" href="Home.html">
-                BMW
-             </a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
-                <div class="d-flex justify-content-center">
-                    <a class="navbar-brand d-none d-lg-block" href="Home.html">
-                        <img src="C:\Users\h\Desktop\Projet scolaire\download-removebg-preview.png" height="40" width="auto">
-                    </a>
-                </div>
-                <div class="d-block w-100">
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="Home.html">
-                                Home
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link active" href="product.html">
-                                Product
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="about.html">
-                                About
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="Contact.html">
-                                Contact
-                            </a>
-                         </li>
-                    </ul>
-                </div>
-             </div>
-       </div>
-   </nav>
+    <?php
+       include "nav.html" ;
+    ?>
    <div class="row py-5 g-5">
      <div class="col-12 col-lg-6">
          <img src="C:\Users\h\Desktop\Projet scolaire\3371863.jpg" alt="" class="m-1 w-100 sliderMainImage" data-bs-toggle="Modal" data-bs-target="#imageModal">

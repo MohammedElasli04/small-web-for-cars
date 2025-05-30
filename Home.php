@@ -8,48 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative top-0 start-0 w-100">
-        <div class="container">
-             <a class="navbar-brand d-lg-none" href="Home.html">
-                BMW
-             </a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
-                <div class="d-flex justify-content-center">
-                    <a class="navbar-brand d-none d-lg-block" href="Home.html">
-                        <img src="C:\Users\h\Desktop\Projet scolaire\download-removebg-preview.png" height="40" width="auto">
-                    </a>
-                </div>
-                <div class="d-block w-100">
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
-                         <li class="nav-items mx-2">
-                             <a class="nav-link active" href="Home.html">
-                                Home
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="product.html">
-                                Product
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="about.html">
-                                About
-                            </a>
-                         </li>
-                         <li class="nav-items mx-2">
-                             <a class="nav-link" href="Contact.html">
-                                Contact
-                            </a>
-                         </li>
-                    </ul>
-                </div>
-             </div>
-       </div>
-   </nav>
-
+    <?php
+       include "nav.html" ;
+    ?>
    <div class="container position-relative text-center">
     <header class="position-relative text-center text-white mb-5">
         <img src="3371863.jpg" alt="banner" class="w-100">
@@ -116,7 +77,7 @@
  </div>
  <div class="row text-start align-items-center gy-5 my-5">
     <div class="col-12 col-md-6">
-       <img src="C:\Users\h\Desktop\Projet scolaire\8282391.jpg" class="w-100 h-100">
+       <img src="8282391.jpg" class="w-100 h-100">
     </div>
     <div class="col-12 col-md-6">
         <h2 class="display-3">
@@ -148,7 +109,7 @@
         </p>
     </div>
     <div class="col-12 col-md-6">
-        <img src="C:\Users\h\Desktop\Projet scolaire\851027.jpg" class="w-100 h-100">
+        <img src="851027.jpg" class="w-100 h-100">
      </div>
  </div>
 <section class="my-5 mx-auto py-5" id="ContactButton">
