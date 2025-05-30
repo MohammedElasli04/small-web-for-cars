@@ -13,10 +13,10 @@
     ?>
    <div class="row py-5 g-5">
      <div class="col-12 col-lg-6">
-         <img src="C:\Users\h\Desktop\Projet scolaire\3371863.jpg" alt="" class="m-1 w-100 sliderMainImage" data-bs-toggle="Modal" data-bs-target="#imageModal">
+         <img src="3371863.jpg" alt="" class="m-1 w-100 sliderMainImage" data-bs-toggle="Modal" data-bs-target="#imageModal">
       <div>
-        <img src="C:\Users\h\Desktop\Projet scolaire\P90390715-the-new-bmw-m5-competition-06-2020-600px.jpg" width="60" alt="" class="m-1" slinderThumb>
-        <img src="C:\Users\h\Desktop\Projet scolaire\maxresdefault.jpg" width="60" alt="" class="m-1" slinderThumb>
+        <img src="P90390715-the-new-bmw-m5-competition-06-2020-600px.jpg" width="60" alt="" class="m-1" slinderThumb>
+        <img src="maxresdefault.jpg" width="60" alt="" class="m-1" slinderThumb>
       </div>
      </div>
      <div class="col-12 col-lg-6">
@@ -64,48 +64,9 @@
           </div>
      </div>
    </div>
-   <div class="container footer">
-    <footer class="d-flex justify-content-between my-5 text-start flex-wrap">
-        <ul class="nav flex-column">
-            <li class="fw-bold nav-items">
-                <a href="Home.html" class="nav-link text-muted">
-                    <img src="download.jpg" height="100">
-                </a>
-            </li>
-            <li class="fw-bold nav-items">
-                <p class="text-dark mt-3">
-                    Copyright BMW , designed with love by Mohammed Elasli
-                </p>
-            </li>
-        </ul >
-        <ul class="nav flex-column">
-            <li class="fw-bold nav-items">
-                <a href="#" class="nav-link text-dark">
-                    Pages
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="Home.html" class="nav-link text-dark">
-                    Home
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="product.html" class="nav-link text-dark">
-                    Product
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="about.html" class="nav-link text-dark">
-                    About
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="Contact.html" class="nav-link text-dark">
-                    Contact
-                </a>
-            </li>
-        </ul>
-    </footer>
+    <?php
+        include_once 'footer.html' ;
+    ?>
     <script src="script.js"></script>   
     <script src="js/bootstrap.min.js"></script>
 </body>

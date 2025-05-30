@@ -54,48 +54,9 @@
      </div>  
   </form>
 </div>
-   <div class="container footer">
-    <footer class="d-flex justify-content-between my-5 text-start flex-wrap">
-        <ul class="nav flex-column">
-            <li class="fw-bold nav-items">
-                <a href="Home.html" class="nav-link text-muted">
-                    <img src="download.jpg" height="100">
-                </a>
-            </li>
-            <li class="fw-bold nav-items">
-                <p class="text-dark mt-3">
-                    Copyright BMW , designed with love by Mohammed Elasli
-                </p>
-            </li>
-        </ul >
-        <ul class="nav flex-column">
-            <li class="fw-bold nav-items">
-                <a href="#" class="nav-link text-dark">
-                    Pages
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="Home.html" class="nav-link text-dark">
-                    Home
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="product.html" class="nav-link text-dark">
-                    Product
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="about.html" class="nav-link text-dark">
-                    About
-                </a>
-            </li>
-            <li class=" nav-items">
-                <a href="Contact.html" class="nav-link text-dark">
-                    Contact
-                </a>
-            </li>
-        </ul>
-    </footer>
+    <?php
+        include_once 'footer.html' ;
+    ?>
     <script src="script.js"></script>  
     <script src="js/bootstrap.min.js"></script> 
 </body>
